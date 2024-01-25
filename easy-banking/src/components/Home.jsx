@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import Wrapper from '../assets/wrappers/Home'
 import LogoComponent from './LogoComponent';
+
 function Home() {
 const [open ,setOpen] = useState(false);
   return (
@@ -15,7 +16,7 @@ const [open ,setOpen] = useState(false);
           <a href="#">Careers</a>
         </nav>
         <button>Request Invite</button>
-        <img open={open} onClick={()=> setOpen(!open)} className="hamburger" src="../images/icon-hamburger.svg" alt="" />
+        <img  onClick={()=> setOpen(!open)} className="hamburger" src="../images/icon-hamburger.svg" alt="" />
       </header>
 
       <section className="banner">
