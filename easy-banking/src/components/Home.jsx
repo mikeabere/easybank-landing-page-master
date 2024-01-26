@@ -3,7 +3,14 @@ import Wrapper from '../assets/wrappers/Home'
 import LogoComponent from './LogoComponent';
 
 function Home() {
+
 const [open ,setOpen] = useState(false);
+
+
+function togglemenu(){
+  
+}
+
   return (
     <Wrapper>
       <header>
